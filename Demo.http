@@ -1,0 +1,10 @@
+@Host = http://localhost:8080
+
+GET {{Host}}/comments
+Accept: application/json
+
+###
+
+
+GET {{Host}}/comments/2
+Accept: application/json
